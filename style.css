@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+
+    color: white;
+    background-color: #161410;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #a30000;
+    display: flex;
+    justify-content:space-between;
+}
+#Ybutton {
+    background-color: #e2c627;
+    padding: 10px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+#sobremimButton{
+    padding: 25px;
+    background-color: #a30000;
+    color: rgb(255, 225, 0);
+}
+
+#MainButtons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#indexTitles {
+    background-color: #404040;
+    width: 150px;
+    padding: 10px;
+    border-end-end-radius: 20px;
+}
+
+#welcome {
+    background-image: url("./imgs/background.png");
+    width: 100%;
+    height: 400px;
+    background-position: 10px;
+    background-size: cover;
+
+    text-transform: capitalize;
+}
+
+main {
+    text-align: center;
+}
+
+#titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+#vejamais {
+    background-color: #404040;
+    width: 100px;
+    padding: 1px;
+    border-end-start-radius: 20px;
+    color: white;
+    height: 20px;
+}
+
+tr {
+    justify-content: space-around;
+}
+
+table {
+    width: 100%;
+}
+
+footer {
+    background-color: #a30000;
+
+    width: 100%;
+    position: absolute;
+    bottom: 0 auto;
+    text-align: center;
+}
+
+#divonaBase {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#title {
+    background-color: #404040;
+    width: 95%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 7px;
+    color: #e2c627;
+}
+
+#ageRate {
+    background-color: #404040;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #333333;
+}
+
+#tempo {
+    background-color: #404040;
+    padding: 15px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #333333;
+}
+
+#nota {
+    background-color: #007527;
+    width: 30px;
+    padding: 15px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #333333;
+}
+
+#row {
+    display: flex;
+    justify-content: space-around;
+}
+
+#genero {
+    background-color: #404040;
+    padding: 10px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #333333;
+}
+
+#sinopse{
+    background-color: #404040;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #333333;
+}
+
+header button{
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.InvButton:hover{
+    background-color: rgba(255, 0, 0, 0.749);
+    border-color: rgba(255, 0, 0, 0);
+    transition: 0.5s;
+    transform: scale(1.1,1.1);
+}
+
+.sobreMim{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobreMimTxt{
+    background-color: #333333;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #404040;
+    border-width: 10px;
+    width: 40%;
+}
+
+.banner{
+    size: 200px;
+}

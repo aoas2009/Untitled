@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+
+    color: white;
+    background-color: #161410;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    margin: 10px;
+}
+
+header{
+    background-color: #a30000;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+}
+
+#card{
+    padding: 15px;
+    background-color: #a30000;
+    display: flex;
+}
+
+summary:hover{
+    width: 215px;
+    transition: 0.25s;
+    background-color: #292929;
+    border-radius: 10px;
+}
+
+header>nav>ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#foto{
+    border-radius: 10px;
+}
+
+.imagem{
+    width: 500px;
+    border-radius: 50px;
+}
+
+#tierS{
+    background-color: rgb(255, 74, 74);
+}
+
+#tierA{
+    background-color: rgb(255, 166, 0);
+}
+
+#tierB{
+    background-color: rgb(255, 255, 0);
+}
+
+#tierC{
+    background-color: rgb(75, 255, 75);
+}
+
+.tiers{
+    color: black;
+    padding: 10px;
+}
+
+header button{
+    border-color: rgba(0, 0, 0, 0);
+}
+
+footer {
+    background-color: #a30000;
+
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
